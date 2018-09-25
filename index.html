@@ -501,13 +501,13 @@
             </div>
         </div>
 
-        <!-- <div class="portfolio-wrapper">
+        <div class="portfolio-wrapper">
             <div class="container">
                 <div class="portfolio-close"><span>close</span></div>
                 <div class="portfolio-container"></div>
                 <div class="arrow-up"></div>
             </div>
-        </div> -->
+        </div>
 
         <div class="portfolio-grid row">
 
@@ -520,7 +520,7 @@
                             <p>ilustración</p>
                         </div>
                     </div>
-                    <!-- <div class="portfolio-content">
+                    <div class="portfolio-content">
                         <h2>Photoshop Text Effect</h2>
                         <div class="row">
                             <div class="col-md-8">
@@ -577,7 +577,6 @@
                             </div>
                         </div>
                     </div>
-                    portfolio-content -->
                 </div>
             </div>
 
@@ -929,7 +928,7 @@
                     </div>
 
                     <div class="portfolio-content">
-                        <h2 class="text-center">Big Project</h2>
+                        <h2 class="text-center">Big Project 2</h2>
                         <div class="row">
                             <div class="col-sm-4 text-center">
                                 <div class="client">
@@ -1125,6 +1124,17 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        const links = document.querySelectorAll(".portfolio-link");
+        const content = document.querySelector("#portfolio");
+
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                content.scrollIntoView({ behavior: 'smooth' });
+            });
+        })
+    </script>
 
     <script type="text/javascript" src="js/vendor/jquery-1.10.1.min.js"></script>
     <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
