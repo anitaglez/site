@@ -963,7 +963,7 @@ a:focus {
 .portfolio-grid {
     margin: 0 auto;
     padding: 0;
-    width:100%;
+    width:80%;
 }
 .portfolio-grid div {
     display: block;
@@ -1491,7 +1491,9 @@ section:nth-child(odd) {
 }
 
 #contact address{
+	position: relative;
 	margin-bottom:100px;
+	z-index: 99999;
 }
 
 #contact #contact-form-response {
@@ -1518,7 +1520,7 @@ section:nth-child(odd) {
 #contact .background-icon .fa{
     font-size: 250px;
     line-height: 250px;
-    opacity: 0.06;
+		opacity: 0.06;
 }
 
 footer {
