@@ -1670,6 +1670,7 @@ section:nth-child(odd) {
   height: 100%;
   top: -50px;
   padding-right: 30px;
+  z-index: -9999;
 }
 
 #contact .background-icon .fa {
